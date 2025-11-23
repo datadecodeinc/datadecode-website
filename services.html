@@ -4,52 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Services | Data Decode Inc.</title>
-    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="stylesheet" href="assets/style.css">
+    <script defer src="assets/script.js"></script>
 </head>
+
 <body>
 
-<header>
-    <nav class="navbar">
-        <div class="logo">DATA DECODE INC.</div>
-        <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="services.html" class="active">Services</a></li>
-            <li><a href="contact.html">Contact</a></li> 
-        </ul>
-    </nav>
+<header class="navbar">
+    <div class="logo">
+        <img src="assets/logo.svg">
+    </div>
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a class="active" href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
 </header>
 
 <section class="page-header">
-    <h1>Services</h1>
+    <h1 class="reveal fade-up">Our Services</h1>
 </section>
 
 <section class="services-grid">
 
-    <div class="service-card">
+    <div class="service-card reveal fade-up">
         <h3>Data Engineering</h3>
-        <p>Modern pipelines using Azure Data Factory, Databricks, Delta Lake, and PySpark.</p>
+        <p>Azure Data Factory, Databricks, PySpark, Delta Lake pipelines.</p>
     </div>
 
-    <div class="service-card">
+    <div class="service-card reveal fade-up">
         <h3>Cloud Migration</h3>
-        <p>Lift-and-shift or full rebuild of your BI and ETL systems on Azure.</p>
+        <p>Modernize on-prem BI to Azure Lakehouse with best practices.</p>
     </div>
 
-    <div class="service-card">
-        <h3>BI & Reporting</h3>
-        <p>Power BI dashboards, semantic modeling, performance tuning.</p>
+    <div class="service-card reveal fade-up">
+        <h3>BI Modernization</h3>
+        <p>Power BI dashboards, semantic modeling, analytics advisory.</p>
     </div>
 
-    <div class="service-card">
+    <div class="service-card reveal fade-up">
         <h3>AI & Automation</h3>
-        <p>Integrate AI-enhanced workflows, analytics, and automation using OpenAI/LLMs.</p>
+        <p>AI workflow automation, LLM integrations, and intelligent agents.</p>
     </div>
 
 </section>
 
 <footer>
-    <p>© 2025 Data Decode Inc. All rights reserved.</p>
+    <p>© 2025 Data Decode Inc.</p>
 </footer>
 
 </body>
