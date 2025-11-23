@@ -1,14 +1,18 @@
-// Scroll Reveal
-const reveals = document.querySelectorAll(".reveal");
+// Scroll Reveal Animation
+const reveals = document.querySelectorAll('.reveal');
+
 
 function revealOnScroll() {
-    for (const el of reveals) {
-        const rect = el.getBoundingClientRect();
-        if (rect.top < window.innerHeight - 60) {
-            el.classList.add("active");
-        }
-    }
+const triggerPoint = window.innerHeight * 0.85;
+
+
+reveals.forEach(el => {
+if (el.getBoundingClientRect().top < triggerPoint) {
+el.classList.add('visible');
+}
+});
 }
 
-window.addEventListener("scroll", revealOnScroll);
-revealOnScroll(); // trigger on load
+
+window.addEventListener('scroll', revealOnScroll);
+revealOnScroll();
