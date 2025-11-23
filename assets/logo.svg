@@ -1,0 +1,15 @@
+<!-- Clean geometric logo: hexagon + data node motif -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+<defs>
+<linearGradient id="lg" x1="0" x2="1">
+<stop offset="0" stop-color="#00BFA6" />
+<stop offset="1" stop-color="#5E35B1" />
+</linearGradient>
+</defs>
+<g fill="none" fill-rule="evenodd">
+<polygon points="100 12 172 50 172 150 100 188 28 150 28 50" fill="url(#lg)" opacity="0.95"/>
+<circle cx="100" cy="80" r="10" fill="#fff" opacity="0.95" />
+<circle cx="130" cy="120" r="6" fill="#FF6B6B" />
+<path d="M100 90 L130 120" stroke="rgba(255,255,255,0.3)" stroke-width="2" stroke-linecap="round"/>
+</g>
+</svg>
