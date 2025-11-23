@@ -1,3 +1,14 @@
-// Placeholder for future interactive features.
-// You can ask ChatGPT anytime to add animations, effects, or dynamic components.
-console.log("Data Decode Inc. website loaded.");
+// Scroll Reveal
+const reveals = document.querySelectorAll(".reveal");
+
+function revealOnScroll() {
+    for (const el of reveals) {
+        const rect = el.getBoundingClientRect();
+        if (rect.top < window.innerHeight - 60) {
+            el.classList.add("active");
+        }
+    }
+}
+
+window.addEventListener("scroll", revealOnScroll);
+revealOnScroll(); // trigger on load
