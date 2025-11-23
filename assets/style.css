@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #F4F4F4;
+    color: #222;
+}
+
+/* NAVBAR */
+.navbar {
+    background: #A7D8FF;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+    align-items: center;
+}
+
+.logo {
+    font-weight: bold;
+    color: #C62828;
+    font-size: 20px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #222;
+}
+
+.nav-links a.active {
+    color: #C62828;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 120px 20px;
+    background: linear-gradient(to bottom, #A7D8FF 0%, #FFFFFF 70%);
+}
+
+.hero h1 {
+    font-size: 42px;
+    color: #C62828;
+}
+
+.cta-btn {
+    display: inline-block;
+    margin-top: 20px;
+    background: #C62828;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* PAGE HEADER */
+.page-header {
+    padding: 60px 20px;
+    text-align: center;
+    background: #A7D8FF;
+    color: #C62828;
+}
+
+/* TESTIMONIALS */
+.testimonials {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.testimonial-box {
+    background: white;
+    margin: 15px auto;
+    max-width: 600px;
+    padding: 20px;
+    border-left: 4px solid #C62828;
+    border-radius: 6px;
+}
+
+/* SERVICES GRID */
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 40px;
+}
+
+.service-card {
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    border-top: 5px solid #C62828;
+}
+
+/* CONTACT FORM */
+.contact-section {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.contact-form {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form button {
+    padding: 12px;
+    background: #C62828;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #A7D8FF;
+    color: #C62828;
+    margin-top: 40px;
+}
