@@ -1,57 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Data Decode Inc. | Home</title>
-    <link rel="stylesheet" href="assets/style.css">
-    <script defer src="assets/script.js"></script>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Data Decode Inc.</title>
+<link rel="stylesheet" href="assets/style.css" />
 </head>
-
 <body>
-
-<header class="navbar">
-    <div class="logo">
-        <img src="assets/logo.svg" alt="Data Decode Inc">
-    </div>
-    <ul class="nav-links">
-        <li><a class="active" href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="contact.html">Contact</a></li>
-    </ul>
+<header class="navbar reveal">
+<img src="assets/logo.svg" class="logo" />
+<nav>
+<a href="index.html" class="active">Home</a>
+<a href="about.html">About</a>
+<a href="services.html">Services</a>
+<a href="contact.html">Contact</a>
+</nav>
 </header>
 
-<section class="hero animated-bg">
-    <div class="hero-content reveal fade-up">
-        <h1>Decode Your Data. Accelerate Innovation.</h1>
-        <p>Cloud • Data Engineering • AI • Automation</p>
-        <a class="cta-btn" href="services.html">Explore Services</a>
-    </div>
 
-    <!-- AI SVG WAVE -->
-    <svg class="hero-wave" viewBox="0 0 1440 320">
-        <path fill="#1C7DF2" fill-opacity="1" d="M0,96L80,112C160,128,320,160,480,170.7C640,181,800,171,960,154.7C1120,139,1280,117,1360,106.7L1440,96L1440,0L0,0Z"></path>
-    </svg>
+<section class="hero reveal">
+<h1>Welcome to <span>Data Decode Inc.</span></h1>
+<p>Turning complex data into simple, scalable insights.</p>
+<a class="cta-btn" href="services.html">Explore Services</a>
 </section>
 
-<section class="testimonials reveal fade-in">
-    <h2>What Our Clients Say</h2>
 
-    <div class="testimonial-card">
-        <p>“Their Azure migration strategy saved us months of engineering effort.”</p>
-        <span>- CTO, FinTech Startup</span>
-    </div>
+<!-- Animated SVG Background Shapes -->
+<div class="bg-shapes">
+<svg class="shape" width="250" height="250" style="top:10%; left:5%;">
+<circle cx="125" cy="125" r="120" fill="#3a86ff" opacity="0.15" />
+</svg>
+<svg class="shape" width="300" height="300" style="top:60%; left:70%; animation-delay:3s;">
+<rect width="280" height="280" rx="60" fill="#e63946" opacity="0.15" />
+</svg>
+</div>
 
-    <div class="testimonial-card">
-        <p>“Exceptionally talented team for dashboard modernization and analytics.”</p>
-        <span>- VP Analytics, Insurance</span>
-    </div>
-</section>
 
-<footer>
-    <p>© 2025 Data Decode Inc.</p>
-</footer>
-
+<script src="assets/script.js"></script>
 </body>
 </html>
