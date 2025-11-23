@@ -4,37 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact | Data Decode Inc.</title>
-    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="stylesheet" href="assets/style.css">
+    <script defer src="assets/script.js"></script>
 </head>
+
 <body>
 
-<header>
-    <nav class="navbar">
-        <div class="logo">DATA DECODE INC.</div>
-        <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="contact.html" class="active">Contact</a></li>
-        </ul>
-    </nav>
+<header class="navbar">
+    <div class="logo">
+        <img src="assets/logo.svg">
+    </div>
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a class="active" href="contact.html">Contact</a></li>
+    </ul>
 </header>
 
 <section class="page-header">
-    <h1>Contact Us</h1>
+    <h1 class="reveal fade-up">Contact Us</h1>
 </section>
 
-<section class="contact-section">
+<section class="contact-section reveal fade-in">
     <form class="contact-form" method="POST" action="https://formspree.io/f/mayvpbnq">
-        <input type="text" name="name" placeholder="Your Name" required />
-        <input type="email" name="email" placeholder="Your Email" required />
-        <textarea name="message" rows="5" placeholder="Your Message"></textarea>
-        <button type="submit">Send Message</button>
+        <input type="text" required name="name" placeholder="Your Name">
+        <input type="email" required name="email" placeholder="Your Email">
+        <textarea required name="message" placeholder="Your Message"></textarea>
+        <button type="submit">Send</button>
     </form>
 </section>
 
 <footer>
-    <p>© 2025 Data Decode Inc. All rights reserved.</p>
+    <p>© 2025 Data Decode Inc.</p>
 </footer>
 
 </body>
